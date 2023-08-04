@@ -6,7 +6,7 @@ myImage.onclick = () => {
     const mySrc = myImage.getAttribute("src");
 
     if (mySrc === "images/Google-Chrome-Logo-2008-2011.png") {
-        myImage.setAttribute("src", "images/Logo-Google-Chrome.webp");
+        myImage.setAttribute("src", "images/R.png");
     } else {
         myImage.setAttribute("src", "images/Google-Chrome-Logo-2008-2011.png");
     }
