@@ -5,10 +5,10 @@ let myButton = document.querySelector("button");
 myImage.onclick = () => {
     const mySrc = myImage.getAttribute("src");
 
-    if (mySrc === "Google-Chrome-Logo-2008-2011.png") {
-        myImage.setAttribute("src", "Logo-Google-Chrome.webp");
+    if (mySrc === "images/Google-Chrome-Logo-2008-2011.png") {
+        myImage.setAttribute("src", "images/Logo-Google-Chrome.webp");
     } else {
-        myImage.setAttribute("src", "Google-Chrome-Logo-2008-2011.png");
+        myImage.setAttribute("src", "images/Google-Chrome-Logo-2008-2011.png");
     }
 };
 
